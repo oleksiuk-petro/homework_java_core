@@ -14,10 +14,13 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args) {
+
         //викликаємо метод визначення кількості введених слів
         int n = howManyWords();
+
         //створюємо список
         List<String> list = new LinkedList<>();
+
         //виводимо список із слів, які розпочинаються на символ 'a'
         System.out.println(writeWords(list, n));
     }
