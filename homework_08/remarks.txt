@@ -1,0 +1,2 @@
+homework_08/src/season/Main.java#L90
+- if можна використовувати без else, немає потреби писати порожні else блоки
