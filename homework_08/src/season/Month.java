@@ -1,4 +1,5 @@
 package season;
+
 public enum Month {
 
     //оголошуємо константи

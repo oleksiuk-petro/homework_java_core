@@ -43,7 +43,6 @@ public class Main {
             //порівнюємо стрічку з константами місяців
             if ((varMonth.compareTo(month)) == 0) {
                 i++;
-            } else {
             }
         }
         if (i == 1) {
@@ -87,7 +86,6 @@ public class Main {
             for (Month month : Month.values()) {
                 if (varMonth.getNumberDay() == month.getNumberDay()) {
                     System.out.println(month.toString() + " " + month.getNumberDay());
-                } else {
                 }
             }
 
@@ -96,7 +94,6 @@ public class Main {
             for (Month month : Month.values()) {
                 if (varMonth.getNumberDay() > month.getNumberDay()) {
                     System.out.println(month.toString() + " " + month.getNumberDay());
-                } else {
                 }
             }
 
@@ -105,7 +102,6 @@ public class Main {
             for (Month month : Month.values()) {
                 if (varMonth.getNumberDay() < month.getNumberDay()) {
                     System.out.println(month.toString() + " " + month.getNumberDay());
-                } else {
                 }
             }
 
@@ -148,7 +144,6 @@ public class Main {
             for (Month month : Month.values()) {
                 if ((month.getNumberDay() == 28) || (month.getNumberDay() == 30)) {
                     System.out.println(month.toString() + " " + month.getNumberDay());
-                } else {
                 }
             }
 
@@ -157,7 +152,6 @@ public class Main {
             for (Month month : Month.values()) {
                 if ((month.getNumberDay() == 29) || (month.getNumberDay() == 31)) {
                     System.out.println(month.toString() + " " + month.getNumberDay());
-                } else {
                 }
             }
 
