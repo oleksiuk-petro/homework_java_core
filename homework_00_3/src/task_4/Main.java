@@ -5,10 +5,10 @@ package task_4;
 
 public class Main {
     public static void main(String[] args) {
-        int element=90;
-        while(element>=0){
+        int element = 90;
+        while (element >= 0) {
             System.out.println(element);
-            element-=5;
+            element -= 5;
         }
     }
 }

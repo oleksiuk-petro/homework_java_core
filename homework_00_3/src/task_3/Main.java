@@ -5,11 +5,11 @@ package task_3;
 
 public class Main {
     public static void main(String[] args) {
-        int n=1;
+        int n = 1;
         int element;
-        while(n<=55){
-            element=2*n-1;
-            System.out.println("n="+n+": "+element);
+        while (n <= 55) {
+            element = 2 * n - 1;
+            System.out.println("n=" + n + ": " + element);
             n++;
         }
     }
