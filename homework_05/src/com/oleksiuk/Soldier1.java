@@ -1,16 +1,16 @@
 package com.oleksiuk;
 
-public class Soldier_1 extends Soldier{
+public class Soldier1 extends Soldier{
     //створюємо поля класу
     private int health = 1000;
     private String arsenal = "Knife(200)";
     private int broke =200;
     //створюємо змінну класу Soldier_3
-    Soldier_3 soldier_3 = new Soldier_3("3");
+    Soldier3 soldier3 = new Soldier3("3");
 
     //створюємо конструктор класу
     //Alt + Insert -> Constructor
-    public Soldier_1(String id) {
+    public Soldier1(String id) {
         super(id);
         this.health = health;
         this.arsenal = arsenal;
@@ -39,24 +39,24 @@ public class Soldier_1 extends Soldier{
 
     //солдат №1 брав участь у трьох раундах
     //метод описує здоров’я у першому раунді
-    public String Soldier1_health1(){
+    public String soldier1Health1(){
         System.out.println("Soldier №1: 700 hp");
         return "";
     }
     //метод описує здоров’я у другому раунді
-    public String Soldier1_health2(){
+    public String soldier1Health2(){
         System.out.println("Soldier №1: 200 hp");
         return "";
     }
     //метод описує здоров’я у третьому раунді
-    public String Soldier1_health3(){
+    public String soldier1Health3(){
         System.out.println("Soldier №1: -100 hp\nSoldier №1 is died!");
         return "";
     }
 
     //солдат №1 атакує тільки у першому раунді
-    public void Soldier1_round1(){
-        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier_3.getId());
+    public void soldier1Round1(){
+        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier3.getId());
         //return "";
     }
 }

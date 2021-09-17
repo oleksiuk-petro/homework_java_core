@@ -1,18 +1,18 @@
 package com.oleksiuk;
 
-public class Soldier_2 extends Soldier{
+public class Soldier2 extends Soldier{
     //створюємо поля класу
     private int health = 800;
     private String arsenal = "Saber(300)";
     private int broke =300;
     //створюємо змінну класу Soldier_1
-    Soldier_1 soldier_1 = new Soldier_1("1");
+    Soldier1 soldier1 = new Soldier1("1");
     //створюємо змінну класу Soldier_3
-    Soldier_3 soldier_3 = new Soldier_3("3");
+    Soldier3 soldier3 = new Soldier3("3");
 
     //створюємо конструктор класу
     //Alt + Insert -> Constructor
-    public Soldier_2(String id) {
+    public Soldier2(String id) {
         super(id);
         this.health = health;
         this.arsenal = arsenal;
@@ -40,16 +40,16 @@ public class Soldier_2 extends Soldier{
     }
 
     //солдат №2 брав участь у трьох раундах
-    public String Soldier2_round1(){
-        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier_1.getId());
+    public String soldier2Round1(){
+        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier1.getId());
         return "";
     }
-    public String Soldier2_round2(){
-        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier_3.getId());
+    public String soldier2Round2(){
+        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier3.getId());
         return "";
     }
-    public String Soldier2_round3(){
-        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier_1.getId());
+    public String soldier2Round3(){
+        System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier1.getId());
         return "";
     }
 }

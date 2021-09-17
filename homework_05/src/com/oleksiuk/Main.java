@@ -9,35 +9,36 @@
 На кожному етапі показувати інформацію.
  */
 package com.oleksiuk;
+
 public class Main {
     public static void main(String[] args) {
 	    //створюємо об’єкти класів
         Soldier soldier = new Soldier("");
-        Soldier_1 soldier_1 = new Soldier_1("1");
-        Soldier_2 soldier_2 = new Soldier_2("2");
-        Soldier_3 soldier_3 = new Soldier_3("3");
+        Soldier1 soldier1 = new Soldier1("1");
+        Soldier2 soldier2 = new Soldier2("2");
+        Soldier3 soldier3 = new Soldier3("3");
 
         //виводимо інформацію про солдатів
         System.out.println("--------------------");
-        System.out.println("Soldier №" + soldier_1.getId() + "\nHealth: " + soldier_1.getHealth() + "\nArsenal: " + soldier_1.getArsenal() + "\n--------------------");
-        System.out.println("Soldier №" + soldier_2.getId() + "\nHealth: " + soldier_2.getHealth() + "\nArsenal: " + soldier_2.getArsenal() + "\n--------------------");
-        System.out.println("Soldier №" + soldier_3.getId() + "\nHealth: " + soldier_3.getHealth() + "\nArsenal: " + soldier_3.getArsenal() + "\n--------------------");
+        System.out.println("Soldier №" + soldier1.getId() + "\nHealth: " + soldier1.getHealth() + "\nArsenal: " + soldier1.getArsenal() + "\n--------------------");
+        System.out.println("Soldier №" + soldier2.getId() + "\nHealth: " + soldier2.getHealth() + "\nArsenal: " + soldier2.getArsenal() + "\n--------------------");
+        System.out.println("Soldier №" + soldier3.getId() + "\nHealth: " + soldier3.getHealth() + "\nArsenal: " + soldier3.getArsenal() + "\n--------------------");
 
         //виводимо повідомлення про бойові дії
         System.out.println("       WAR!       ");
 
         //раунд 1
-        System.out.println(soldier_2.Soldier2_round1() + "\n" + soldier_1.Soldier1_health1());
-        soldier_1.Soldier1_round1();
+        System.out.println(soldier2.soldier2Round1() + "\n" + soldier1.soldier1Health1());
+        soldier1.soldier1Round1();
         System.out.println("\n");
-        soldier_3.Soldier3_health1();
-        System.out.println(soldier_3.Soldier3_round1() + "\n" + soldier_1.Soldier1_health2());
+        soldier3.soldier3Health1();
+        System.out.println(soldier3.soldier3Round1() + "\n" + soldier1.soldier1Health2());
 
         //раунд 2
-        System.out.println(soldier_2.Soldier2_round2() + "\n" + soldier_3.Soldier3_health2());
+        System.out.println(soldier2.soldier2Round2() + "\n" + soldier3.soldier3Health2());
 
         //раунд 3
-        System.out.println(soldier_2.Soldier2_round3() + "\n" + soldier_1.Soldier1_health3());
+        System.out.println(soldier2.soldier2Round3() + "\n" + soldier1.soldier1Health3());
 
         //виводимо повідомлення про завершення війни
         System.out.println(soldier.victoryWar());
