@@ -1,8 +1,8 @@
-homework_06/src/task1/Worker1.java#L3
+homework_06/src/task1/Worker1.java#L3 (+)
 - тут повинен бути пробіл між фігурною дужжкою і Salary, використовуй форматування(ctrl+alt+l)
 
-homework_06/src/task1/Worker1.java#L6
+homework_06/src/task1/Worker1.java#L6 (+)
 - назви усіх змінних, окрім констант завжди починаються з маленької літери
 
-homework_06/src/task1/Worker1.java#L11
+homework_06/src/task1/Worker1.java#L11 (+)
 - відповідно тут можна написати тоді: this.salary = salary;

@@ -1,5 +1,6 @@
 //Worker1 - це клас працівника із фіксованою заробітньою платою
 package task1;
+
 public class Worker1 implements Salary {
 
     //оголошуємо поле класу (назва поля = назві інтерфейсу)
@@ -20,9 +21,11 @@ public class Worker1 implements Salary {
 
     //встановлюємо Get та Set для поля класу Worker1
     //Alt + Insert -> Getter and Setter (double:salary;)
+
     public double getSalary() {
         return salary;
     }
+
     public void setSalary(double salary) {
         this.salary = salary;
     }

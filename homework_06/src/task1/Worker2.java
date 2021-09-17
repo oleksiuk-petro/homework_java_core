@@ -1,5 +1,6 @@
 //Worker2 - це клас працівника із погодинною заробітньою платою
 package task1;
+
 public class Worker2 implements Salary {
 
     //оголошуємо поле класу (назва поля = назві інтерфейсу)
@@ -20,27 +21,33 @@ public class Worker2 implements Salary {
     //Alt + Insert -> Override (salary)
     @Override
     public void salary() {
-        salary = hourlyRate *time;
+        salary = hourlyRate * time;
         System.out.println(salary);
     }
 
     //встановлюємо Get та Set для поля класу Worker2
     //Alt + Insert -> Getter and Setter (Salary, hourly_rate, time)
+
     public double getSalary() {
         return salary;
     }
+
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
     public double getHourlyRate() {
         return hourlyRate;
     }
+
     public void setHourlyRate(double hourlyRate) {
         this.hourlyRate = hourlyRate;
     }
+
     public double getTime() {
         return time;
     }
+
     public void setTime(double time) {
         this.time = time;
     }
