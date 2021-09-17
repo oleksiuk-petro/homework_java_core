@@ -43,11 +43,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/homework_10" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -379,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631900499403</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Folder &quot;.idea&quot;.">
+      <created>1631901683716</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1631901683716</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,9 +425,13 @@
     <MESSAGE value="Set, Queue." />
     <MESSAGE value="Map." />
     <MESSAGE value="Delete files." />
-    <MESSAGE value="Folder &quot;.idea&quot;." />
     <MESSAGE value="Delete &quot;.idea&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete &quot;.idea&quot;." />
+    <MESSAGE value="Folder &quot;.idea&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Folder &quot;.idea&quot;." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/homework_java_core$Main.ic" NAME="Main Coverage Results" MODIFIED="1631898429991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
