@@ -6,7 +6,7 @@ public class Circle {
     private double diameter;
 
     //створюємо конструктор з двома параметрами
-    Circle(double new_radius, double new_diameter){
+    Circle(double new_radius, double new_diameter) {
         this.radius = new_radius;
         this.diameter = new_diameter;
     }
@@ -15,6 +15,7 @@ public class Circle {
     public double getRadius() {
         return radius;
     }
+
     public void setRadius(double radius) {
         this.radius = radius;
     }
@@ -23,6 +24,7 @@ public class Circle {
     public double getDiameter() {
         return diameter;
     }
+
     public void setDiameter(double diameter) {
         this.diameter = diameter;
     }
