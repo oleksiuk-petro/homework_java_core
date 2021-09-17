@@ -5,6 +5,7 @@
  otherwise                     "Hello guests"
  */
 package task_2;
+
 import java.util.Scanner;
 
 public class Main {
@@ -22,23 +23,21 @@ public class Main {
         owner = scan_owner.nextLine();
 
         //отримуємо повернутий рядок із методу "greet"
-        String welcome = greet(name,owner);
+        String welcome = greet(name, owner);
         System.out.print(welcome);
     }
 
     //метод "greet", який перевіряє введені дані та обирає варіант привітання
-    static String greet(String name,String owner) {
+    static String greet(String name, String owner) {
         String a = "Daniel";
         String b = "Greg";
         String text = null;
         //в розгалуженні порівнюємо дані з метода "main" та "a" і "b"
-        if((name.equals(a))&&(owner.equals(a))){
+        if ((name.equals(a)) && (owner.equals(a))) {
             text = "Hello boss!";
-        }
-        else if((name.equals(b))&&(owner.equals(a))){
+        } else if ((name.equals(b)) && (owner.equals(a))) {
             text = "Hello guests!";
-        }
-        else{
+        } else {
             text = "You entered incorrect data!";
         }
         //повертаємо результат в метод "main"

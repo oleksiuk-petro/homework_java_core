@@ -2,6 +2,7 @@
     Написати функцію, яка при введенні року виводить століття
 */
 package task_3;
+
 import java.util.Scanner;
 
 public class Main {
@@ -16,9 +17,10 @@ public class Main {
         int hundreds = century(number);
         System.out.print("If we have " + number + " year, then is " + hundreds + " century.");
     }
+
     //метод, який обчислює століття
     public static int century(int number) {
-        int a=0;
+        int a = 0;
         if (number > 0) {
             a = number / 100 + 1;
         } else {
