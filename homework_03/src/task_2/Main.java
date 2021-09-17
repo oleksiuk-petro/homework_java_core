@@ -6,7 +6,7 @@ package task_2;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //вводимо в консоль радіус
         System.out.println("--------------------");
         System.out.print("radius r=");
@@ -19,12 +19,12 @@ public class Main {
         System.out.println("--------------------");
 
         //викликаємо конструктор з двома параметрами
-        Circle figure = new Circle(r,d);
+        Circle figure = new Circle(r, d);
 
         //виводимо площу кола у консоль
-        System.out.println("Area of circle: s="+Math.PI*Math.pow(figure.getDiameter(), 2));
+        System.out.println("Area of circle: s=" + Math.PI * Math.pow(figure.getDiameter(), 2));
         //виводимо довжину кола у консоль
-        System.out.println("Length of circle: l="+2*Math.PI* figure.getRadius());
+        System.out.println("Length of circle: l=" + 2 * Math.PI * figure.getRadius());
         System.out.println("--------------------");
     }
 }

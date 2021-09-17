@@ -15,20 +15,20 @@ public class Main {
         //виводимо в консоль площу та периметр прямокутника (порожній конструктор)
         System.out.println("--------------------");
         System.out.println("Empty constructor:");
-        System.out.println("width="+figure_empty.getWidth());
-        System.out.println("length="+figure_empty.getLength());
-        System.out.println("Area of rectangle = "+figure_empty.getWidth()* figure_empty.getLength());
-        System.out.println("Perimeter of rectangle = "+2*(figure_empty.getWidth()+ figure_empty.getLength()));
+        System.out.println("width=" + figure_empty.getWidth());
+        System.out.println("length=" + figure_empty.getLength());
+        System.out.println("Area of rectangle = " + figure_empty.getWidth() * figure_empty.getLength());
+        System.out.println("Perimeter of rectangle = " + 2 * (figure_empty.getWidth() + figure_empty.getLength()));
 
         //викликаємо  конструктор з двома параметрами
-        Rectangle figure_full = new Rectangle(3,4);
+        Rectangle figure_full = new Rectangle(3, 4);
         //виводимо в консоль площу та периметр прямокутника (конструктор з двома параметрами)
         System.out.println("--------------------");
         System.out.println("Empty constructor:");
-        System.out.println("width="+figure_full.getWidth());
-        System.out.println("length="+figure_full.getLength());
-        System.out.println("Area of rectangle = "+figure_full.getWidth()* figure_full.getLength());
-        System.out.println("Perimeter of rectangle = "+2*(figure_full.getWidth()+ figure_full.getLength()));
+        System.out.println("width=" + figure_full.getWidth());
+        System.out.println("length=" + figure_full.getLength());
+        System.out.println("Area of rectangle = " + figure_full.getWidth() * figure_full.getLength());
+        System.out.println("Perimeter of rectangle = " + 2 * (figure_full.getWidth() + figure_full.getLength()));
         System.out.println("--------------------");
     }
 }
