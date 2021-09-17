@@ -39,24 +39,20 @@ public class Soldier1 extends Soldier{
 
     //солдат №1 брав участь у трьох раундах
     //метод описує здоров’я у першому раунді
-    public String soldier1Health1(){
+    public void soldier1Health1(){
         System.out.println("Soldier №1: 700 hp");
-        return "";
     }
     //метод описує здоров’я у другому раунді
-    public String soldier1Health2(){
+    public void soldier1Health2(){
         System.out.println("Soldier №1: 200 hp");
-        return "";
     }
     //метод описує здоров’я у третьому раунді
-    public String soldier1Health3(){
+    public void soldier1Health3(){
         System.out.println("Soldier №1: -100 hp\nSoldier №1 is died!");
-        return "";
     }
 
     //солдат №1 атакує тільки у першому раунді
     public void soldier1Round1(){
         System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier3.getId());
-        //return "";
     }
 }

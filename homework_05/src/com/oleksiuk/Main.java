@@ -28,17 +28,25 @@ public class Main {
         System.out.println("       WAR!       ");
 
         //раунд 1
-        System.out.println(soldier2.soldier2Round1() + "\n" + soldier1.soldier1Health1());
+        soldier2.soldier2Round1();
+        System.out.println("\n");
+        soldier1.soldier1Health1();
         soldier1.soldier1Round1();
         System.out.println("\n");
         soldier3.soldier3Health1();
-        System.out.println(soldier3.soldier3Round1() + "\n" + soldier1.soldier1Health2());
+        soldier3.soldier3Round1();
+        System.out.println("\n");
+        soldier1.soldier1Health2();
 
         //раунд 2
-        System.out.println(soldier2.soldier2Round2() + "\n" + soldier3.soldier3Health2());
+        soldier2.soldier2Round2();
+        System.out.println("\n");
+        soldier3.soldier3Health2();
 
         //раунд 3
-        System.out.println(soldier2.soldier2Round3() + "\n" + soldier1.soldier1Health3());
+        soldier2.soldier2Round3();
+        System.out.println("\n");
+        soldier1.soldier1Health3();
 
         //виводимо повідомлення про завершення війни
         System.out.println(soldier.victoryWar());

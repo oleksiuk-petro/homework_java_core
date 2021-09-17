@@ -5,16 +5,15 @@ public class Soldier2 extends Soldier{
     private int health = 800;
     private String arsenal = "Saber(300)";
     private int broke =300;
-    //створюємо змінну класу Soldier_1
+    //створюємо змінну класу Soldier1
     Soldier1 soldier1 = new Soldier1("1");
-    //створюємо змінну класу Soldier_3
+    //створюємо змінну класу Soldier3
     Soldier3 soldier3 = new Soldier3("3");
 
     //створюємо конструктор класу
     //Alt + Insert -> Constructor
     public Soldier2(String id) {
         super(id);
-        this.health = health;
         this.arsenal = arsenal;
         this.broke = broke;
     }
@@ -40,16 +39,13 @@ public class Soldier2 extends Soldier{
     }
 
     //солдат №2 брав участь у трьох раундах
-    public String soldier2Round1(){
+    public void soldier2Round1(){
         System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier1.getId());
-        return "";
     }
-    public String soldier2Round2(){
+    public void soldier2Round2(){
         System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier3.getId());
-        return "";
     }
-    public String soldier2Round3(){
+    public void soldier2Round3(){
         System.out.println("Soldier №" + getId() + " attacks of Soldier №" + soldier1.getId());
-        return "";
     }
 }
