@@ -1,4 +1,4 @@
-homework_10/src/task1/Main.java#L70
+homework_10/src/task1/Main.java#L70 (+)
 - тут можна написати простіше, return text.length() - 1; створювати змінну немає необхідності
 
 homework_10/src/task2/Main.java#L27
