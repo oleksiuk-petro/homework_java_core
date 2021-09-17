@@ -6,11 +6,11 @@ public class Rectangle {
     private double length; //довжина
 
     //створюємо конструктор без параметрів
-    Rectangle(){
+    Rectangle() {
     }
 
     //створюємо конструктор з двома параметрами
-    Rectangle(double new_width, double new_length){
+    Rectangle(double new_width, double new_length) {
         this.width = new_width;
         this.length = new_length;
     }
@@ -19,6 +19,7 @@ public class Rectangle {
     public double getWidth() {
         return width;
     }
+
     public void setWidth(double width) {
         this.width = width;
     }
@@ -27,6 +28,7 @@ public class Rectangle {
     public double getLength() {
         return length;
     }
+
     public void setLength(double length) {
         this.length = length;
     }

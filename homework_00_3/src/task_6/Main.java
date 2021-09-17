@@ -1,5 +1,6 @@
 /*
-    Створіть масив, наповніть його рандомними даними, знайдіть найбільше та найменше значення масиву.
+    Створіть масив, наповніть його рандомними даними,
+    знайдіть найбільше та найменше значення масиву.
  */
 package task_6;
 
@@ -8,14 +9,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        //просимо користувача ввести розмірність масиву від 5 (включно) до 15 (включно)
+        // просимо користувача ввести розмірність масиву від 5 (включно) до 15 (включно)
         System.out.print("Enter the size (any number from 5 to 15): size=");
         Scanner scan_s = new Scanner(System.in);
         int size = scan_s.nextInt();
 
-        //перевіряємо коректність розмірності масиву
+        // перевіряємо коректність розмірності масиву
         if ((size > 15) || (size < 5)) {
-            System.out.println("Incorrect size!");
+            System.out.println("Incorrect size!!!");
         } else {
             //оголошуємо масив
             int array[];

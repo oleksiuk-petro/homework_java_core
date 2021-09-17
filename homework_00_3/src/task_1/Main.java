@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        //зчитуємо з консолі коефіцієнти квадратного рівняння
+        // зчитуємо з консолі коефіцієнти квадратного рівняння
         System.out.print("a=");
         Scanner scan_a = new Scanner(System.in);
         double a = scan_a.nextDouble();
@@ -19,13 +19,13 @@ public class Main {
         Scanner scan_c = new Scanner(System.in);
         double c = scan_c.nextDouble();
 
-        //виводимо на екран наше квадратне рівняння
+        // виводимо на екран наше квадратне рівняння
         System.out.println(a + "*x^2 + " + b + "*x + " + c + " = 0");
 
-        //знаходимо дискримінант квадратного рівняння
+        // знаходимо дискримінант квадратного рівняння
         double d = b * b - 4 * a * c;
 
-        //обчислюємо корені рівняння
+        // обчислюємо корені рівняння
         if (d < 0) {
             System.out.println("There is no solution equation!");
         } else if (d == 0) {
