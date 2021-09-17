@@ -15,12 +15,13 @@ public class Soldier {
     public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
 
     //метод, який виводить інформацію про перемогу
-    public String victoryWar(){
+    public String victoryWar() {
         return "Битва завершилась!\nПереміг воїн №2\n";
     }
 }
