@@ -1,4 +1,4 @@
-package task1;
+package task4;
 
 import java.io.IOException;
 
@@ -8,8 +8,11 @@ public class Main {
         //створюємо екземпляр класу Employee
         Employee worker = new Employee("Ivan", 1, 20000.05);
 
-        //викликаємо метод серіалізації
-        Methods.serializeObject(worker);
+        //робимо salary об’єктом
+        Object objectSalary = worker.getSalary();
+
+        //викликаємо метод серіалізації для salary-об’єкта
+        Methods.serializeObject(objectSalary);
 
         //викликаємо метод десеріалізації
         System.out.println(Methods.deserializeObject());

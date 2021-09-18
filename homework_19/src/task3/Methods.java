@@ -1,11 +1,11 @@
-package task1;
+package task3;
 
 import java.io.*;
 
 public class Methods {
 
-    //константа - абсолютний шлях файлу
-    private static final String FILE = "src/task1/data.txt";
+    //константа - шлях до файлу
+    private static final String FILE = "src/task3/data.txt";
 
     //описуємо метод "серіалізація"
     public static void serializeObject(Object o) throws IOException {
