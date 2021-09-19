@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58f5ce93-696c-42cc-8653-ddcaa22f70f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="58f5ce93-696c-42cc-8653-ddcaa22f70f2" name="Default Changelist" comment="" />
     <list id="06bb2825-370b-467a-a311-c0191b5d4651" name="Revert &quot;Basics of programming.&quot;" comment="Revert &quot;Basics of programming.&quot;&#10;&#10;This reverts commit 2fd14bee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
